@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/db_java
+    url: jdbc:postgresql://172.18.0.1:5432/db_java
     username: admin
     password: 123123
   jpa:
@@ -11,4 +11,5 @@ spring:
 server:
   error:
     include-stacktrace: never
+
 
